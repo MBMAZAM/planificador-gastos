@@ -15,7 +15,7 @@ const ListadoGastos = ({
       {
         filtro ? (
           <>
-            <h2 className='container mx-auto text-2xl text-gray-600 font-bold mb-8'>
+            <h2 className='container max-w-md md:max-w-full mx-auto text-2xl text-gray-600 font-bold mb-8'>
               {gastosFiltrados.length ? 'Hay gastos' : 'No hay gastos'}
             </h2>
             {gastosFiltrados.map((gasto) => (
@@ -24,7 +24,7 @@ const ListadoGastos = ({
           </>
         ) : (
           <>
-            <h2 className='container mx-auto text-2xl text-gray-600 font-bold mb-8'>
+            <h2 className='container max-w-md md:max-w-full mx-auto text-2xl text-gray-600 font-bold mb-8'>
               {gastos.length ? 'Hay gastos' : 'No hay gastos'}
             </h2>
             {gastos.map((gasto) => (

@@ -53,7 +53,7 @@ const Modal = ({ setModal, animarModal, setAnimarModal, guardarGasto, gastoEdita
       <img
         src={CerrarBotom}
         alt=""
-        className="absolute max-w-12 top-8 right-8 cursor-pointer"
+        className="absolute max-w-12 top-8 right-8 cursor-pointer z-10"
         onClick={ocultarModal}
       />
       <div className="p-4 w-full max-w-md absolute top-10">

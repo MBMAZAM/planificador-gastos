@@ -64,7 +64,7 @@ const ControlPresupuesto = ({
   return (
     <>
       <div className="bg-white  mx-auto p-10 rounded-lg shadow-lg max-w-5xl max-h-5xl md:flex justify-around mt-5 flex items-center ">
-        <div className='w-60 h-60'>
+        <div className='w-40 h-40 md:w-60 md:h-60'>
           <CircularProgressbar styles={buildStyles({
             pathColor: porcentaje > 100 ? "#dc2626" : "#3b82f6",
             trailColor: porcentaje > 100 ? "#dc2626" : "#3b82f6",
