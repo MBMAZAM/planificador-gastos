@@ -6,7 +6,7 @@ const Filtros = ({ filtro, setFiltro }) => {
     <div className='text-center mt-40 max-w-5xl shadow-lg mx-auto p-9'>
       <form action="">
         <div className="flex justify-around">
-          <label htmlFor="" className="text-3xl text-gray-600 font-bold">Filtrar Gastos</label>
+          <label htmlFor="" className="text-xl flex items-center md:text-3xl text-gray-600 font-bold">Filtrar Gastos</label>
           <select name="" id="" value={filtro} onChange={e => setFiltro(e.target.value)} className="w-4/6 bg-zinc-100 p-3 rounded-md text-center">
             <option value="">--Seleccione--</option>
             <option value="ahorro">Ahorro</option>

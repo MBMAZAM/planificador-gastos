@@ -7,7 +7,7 @@ import NuevoPresupuesto from "./NuevoPresupuesto"
 const Header = ({ gastos, setGastos, presupuesto, setPresupuesto, isValidPresupuesto, setIsValidPresupuesto }) => {
   return (
     <header className="bg-blue-500 h-[350px]   mx-0 relative">
-      <h1 className="text-white  text-center py-7 text-4xl uppercase relative" >Planificador de Gastos</h1>
+      <h1 className="text-white  text-center py-7 text-2xl md:text-4xl uppercase relative pt-10" >Planificador de Gastos</h1>
 
 
       {isValidPresupuesto ? (<ControlPresupuesto
