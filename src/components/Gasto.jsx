@@ -60,7 +60,7 @@ const Gasto = ({ gasto, setGastoEditar, eliminarGasto }) => {
         leadingActions={leadingActions()}
         trailingActions={trailingActions()}
       >
-        <div className="mt-16 bg-white shadow-lg p-7 rounded-md max-w-2xl container mx-auto text-2xl flex justify-between items-center mb-5">
+        <div className=" bg-white shadow-lg p-7 rounded-md max-w-2xl container mx-auto text-2xl flex justify-between items-center mb-5">
           <div className='flex flex-row gap-x-4 w-full'>
 
             <img src={diccionarioIconos[categoria]} alt="Icono Gastos" className='max-w-24' />
